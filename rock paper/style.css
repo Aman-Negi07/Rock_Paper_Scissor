@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center; /*all wriiten comes in center*/
+}
+h1{
+    background-color:rgb(29, 29, 166);
+    color:aquamarine;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem; /*this is to take it in the center vertically*/
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; /*to get the image at the center*/
+    align-items: center; 
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;  /*to make image circle*/
+    object-fit: cover; /*so that our image do not shrink*/
+}
+.choices{
+    display: flex; /*to get in the single line hrizontally*/
+    justify-content: center; /*to get the image at the center*/
+    align-items: center; 
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.score{
+    display: flex; /*to get in the single line hrizontally*/
+    justify-content: center; /*to get the image at the center*/
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+#user_score,#comp_score{
+    font-size: 4rem;
+}
+.msg{
+    margin-top: 5rem;
+}
+#mssg{
+    background-color: bisque;
+    color: black;
+    font-size: 2rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    display: inline;
+}
